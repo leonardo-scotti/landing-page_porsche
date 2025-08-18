@@ -18,6 +18,8 @@ header {
     justify-content: center;
     align-items: center;
     padding-top: 18px;
+    flex-direction: column;
+    gap: 36px;
 }
 
 nav {
@@ -25,7 +27,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 }
 
 menu {
@@ -75,4 +76,10 @@ menu {
 .find p {
     font-size: 10px;
     color: #fafafa;
+}
+
+.bar {
+    height: 1px;
+    width: 90%;
+    background-color: #898C94;
 }
